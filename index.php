@@ -321,6 +321,7 @@ include("process/contact_process.php");
                             <h5 class="modal-title">Cookie Notice</h5>
                         </div>
                         <div class="modal-body">
+
                             <p>The Networth calculator webiste employs cookies to improve your user experience. 
                             For more information please read our <a href="cookies.html" class="cookies">cookie policy</a>. <br>
                             By clicking the "I ACCEPT" button, you will be providing your consent to our use of cookies.</p>
