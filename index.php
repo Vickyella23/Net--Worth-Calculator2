@@ -108,7 +108,7 @@ include("process/contact_process.php");
                 </div>
                 <div
                     class="row  pt-3 pb-1 align-self-center m-auto bor col-md-5 mb-5"
-                    style="min-height: 50vh;background-color: rgb(14, 34, 56);box-shadow:  -10px  5px 10px gray;"
+                    style="min-height: 40vh; max-width: 60vh; background-color: rgb(14, 34, 56);box-shadow:  -10px  5px 10px gray;"
                 >
                     <div
                         class=" align-self-center text-center pb- col-md-12"
@@ -207,7 +207,7 @@ include("process/contact_process.php");
                                             class="p-2 btn text-light font-weight-bold col-12 mb-2"
                                         />
 
-                                       <input type="checkbox" name="check" /><span id="terms" style="color:green; font-size: : 8px;" required> I read and agree to your terms and conditions</span> 
+                                       <input type="checkbox" name="check" /><i id="terms" style="color:red; font-size: : 8px;" required> I read and agree to your terms and conditions</i> 
                                         
                                     </div>
                                     <h6 style="color: white; margin-top: 15px;"> TERMS AND CONDITIONS</h6>
@@ -321,6 +321,7 @@ include("process/contact_process.php");
                             <h5 class="modal-title">Cookie Notice</h5>
                         </div>
                         <div class="modal-body">
+
                             <p>The Networth calculator webiste employs cookies to improve your user experience. 
                             For more information please read our <a href="cookies.html" class="cookies">cookie policy</a>. <br>
                             By clicking the "I ACCEPT" button, you will be providing your consent to our use of cookies.</p>
